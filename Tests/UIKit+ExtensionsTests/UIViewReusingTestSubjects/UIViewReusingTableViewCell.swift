@@ -2,7 +2,7 @@
 
 import UIKit
 
-class UIViewReusingTableViewCell: UITableViewCell {
+class UIViewReusingTableViewCell: UITableViewCell, UITableViewCellReusing {
 
     override func awakeFromNib() {
         super.awakeFromNib()

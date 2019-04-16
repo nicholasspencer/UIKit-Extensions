@@ -2,7 +2,7 @@
 
 import UIKit
 
-class UIViewReusingCollectionViewCell: UICollectionViewCell {
+class UIViewReusingCollectionViewCell: UICollectionViewCell, UICollectionViewCellReusing {
 
     override func awakeFromNib() {
         super.awakeFromNib()
