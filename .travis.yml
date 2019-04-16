@@ -1,4 +1,4 @@
 language: objective-c
-xcode_project: UIKit+Extensions.xcodeproj
-xcode_scheme: UIKit+ExtensionsTests
+xcode_project: "UIKit+Extensions.xcodeproj"
+xcode_scheme: "UIKit+ExtensionsTests"
 xcode_destination: platform=iOS Simulator,OS=12.1,name=iPhone XS
