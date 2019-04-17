@@ -19,6 +19,7 @@
 		E8E57E1E2266C7C800933736 /* UIStoryboarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8E57E182266C75E00933736 /* UIStoryboarding.storyboard */; };
 		E8E57E1F2266C7CF00933736 /* UIStoryboardingFirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E57E1A2266C7B100933736 /* UIStoryboardingFirstViewController.swift */; };
 		E8E57E202266C88300933736 /* UIViewReusingTableViewCellSubclass.xib in Resources */ = {isa = PBXBuildFile; fileRef = E8E57E142266C3B900933736 /* UIViewReusingTableViewCellSubclass.xib */; };
+		E8E57E232266D2FD00933736 /* UIStoryboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E57E212266D2F900933736 /* UIStoryboarding.swift */; };
 		E8E910A222665D6A00B3F0C7 /* UIKit_Extensions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8E9109822665D6A00B3F0C7 /* UIKit_Extensions.framework */; };
 		E8E910A922665D6A00B3F0C7 /* UIKit_Extensions.h in Headers */ = {isa = PBXBuildFile; fileRef = E8E9109B22665D6A00B3F0C7 /* UIKit_Extensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E8E910B522665E4C00B3F0C7 /* UIStoryboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E910B222665E4C00B3F0C7 /* UIStoryboarding.swift */; };
@@ -48,6 +49,7 @@
 		E8E57E182266C75E00933736 /* UIStoryboarding.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = UIStoryboarding.storyboard; sourceTree = "<group>"; };
 		E8E57E1A2266C7B100933736 /* UIStoryboardingFirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIStoryboardingFirstViewController.swift; sourceTree = "<group>"; };
 		E8E57E1C2266C7C200933736 /* UIStoryboardingSecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIStoryboardingSecondViewController.swift; sourceTree = "<group>"; };
+		E8E57E212266D2F900933736 /* UIStoryboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIStoryboarding.swift; sourceTree = "<group>"; };
 		E8E9109822665D6A00B3F0C7 /* UIKit_Extensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIKit_Extensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8E9109B22665D6A00B3F0C7 /* UIKit_Extensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_Extensions.h; sourceTree = "<group>"; };
 		E8E9109C22665D6A00B3F0C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -89,6 +91,7 @@
 			isa = PBXGroup;
 			children = (
 				E8E57E182266C75E00933736 /* UIStoryboarding.storyboard */,
+				E8E57E212266D2F900933736 /* UIStoryboarding.swift */,
 				E8E57E1A2266C7B100933736 /* UIStoryboardingFirstViewController.swift */,
 				E8E57E1C2266C7C200933736 /* UIStoryboardingSecondViewController.swift */,
 			);
@@ -286,6 +289,7 @@
 				E8E57E1F2266C7CF00933736 /* UIStoryboardingFirstViewController.swift in Sources */,
 				E8E57E112266BEEE00933736 /* UIStoryboardingTests.swift in Sources */,
 				E8819B6C22666B2C00A65E0D /* UIViewReusingCollectionReusableView.swift in Sources */,
+				E8E57E232266D2FD00933736 /* UIStoryboarding.swift in Sources */,
 				E8E910CD2266671A00B3F0C7 /* UIViewReusingTableViewCell.swift in Sources */,
 				E8E57E1D2266C7C200933736 /* UIStoryboardingSecondViewController.swift in Sources */,
 				E8E910CF2266672200B3F0C7 /* UIViewReusingCollectionViewCell.swift in Sources */,

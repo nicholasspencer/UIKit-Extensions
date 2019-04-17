@@ -3,4 +3,4 @@
 import UIKit
 @testable import UIKit_Extensions
 
-class UIStoryboardingSecondViewController: UIViewController, UIStoryboarding {}
+class UIStoryboardingSecondViewController: UIViewController, UIKit_Extensions.UIStoryboarding {}
