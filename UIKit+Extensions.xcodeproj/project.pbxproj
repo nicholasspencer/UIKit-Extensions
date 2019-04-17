@@ -13,6 +13,12 @@
 		E8819B6F22666D6400A65E0D /* UIViewReusingCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E8E910C62266629A00B3F0C7 /* UIViewReusingCollectionViewCell.xib */; };
 		E8819B712266705A00A65E0D /* UIViewReusingCollectionReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E8E910CA226662E000B3F0C7 /* UIViewReusingCollectionReusableView.xib */; };
 		E8E57E0F2266B82200933736 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = E8E57E0E2266B82200933736 /* README.md */; };
+		E8E57E112266BEEE00933736 /* UIStoryboardingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E57E102266BEEE00933736 /* UIStoryboardingTests.swift */; };
+		E8E57E172266C3D500933736 /* UIViewReusingTableViewCellSubclass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E57E132266C3B900933736 /* UIViewReusingTableViewCellSubclass.swift */; };
+		E8E57E1D2266C7C200933736 /* UIStoryboardingSecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E57E1C2266C7C200933736 /* UIStoryboardingSecondViewController.swift */; };
+		E8E57E1E2266C7C800933736 /* UIStoryboarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8E57E182266C75E00933736 /* UIStoryboarding.storyboard */; };
+		E8E57E1F2266C7CF00933736 /* UIStoryboardingFirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E57E1A2266C7B100933736 /* UIStoryboardingFirstViewController.swift */; };
+		E8E57E202266C88300933736 /* UIViewReusingTableViewCellSubclass.xib in Resources */ = {isa = PBXBuildFile; fileRef = E8E57E142266C3B900933736 /* UIViewReusingTableViewCellSubclass.xib */; };
 		E8E910A222665D6A00B3F0C7 /* UIKit_Extensions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8E9109822665D6A00B3F0C7 /* UIKit_Extensions.framework */; };
 		E8E910A922665D6A00B3F0C7 /* UIKit_Extensions.h in Headers */ = {isa = PBXBuildFile; fileRef = E8E9109B22665D6A00B3F0C7 /* UIKit_Extensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E8E910B522665E4C00B3F0C7 /* UIStoryboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E910B222665E4C00B3F0C7 /* UIStoryboarding.swift */; };
@@ -36,11 +42,16 @@
 /* Begin PBXFileReference section */
 		E8E57E0D22667A5000933736 /* .travis.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; };
 		E8E57E0E2266B82200933736 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E8E57E102266BEEE00933736 /* UIStoryboardingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIStoryboardingTests.swift; sourceTree = "<group>"; };
+		E8E57E132266C3B900933736 /* UIViewReusingTableViewCellSubclass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewReusingTableViewCellSubclass.swift; sourceTree = "<group>"; };
+		E8E57E142266C3B900933736 /* UIViewReusingTableViewCellSubclass.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UIViewReusingTableViewCellSubclass.xib; sourceTree = "<group>"; };
+		E8E57E182266C75E00933736 /* UIStoryboarding.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = UIStoryboarding.storyboard; sourceTree = "<group>"; };
+		E8E57E1A2266C7B100933736 /* UIStoryboardingFirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIStoryboardingFirstViewController.swift; sourceTree = "<group>"; };
+		E8E57E1C2266C7C200933736 /* UIStoryboardingSecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIStoryboardingSecondViewController.swift; sourceTree = "<group>"; };
 		E8E9109822665D6A00B3F0C7 /* UIKit_Extensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIKit_Extensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8E9109B22665D6A00B3F0C7 /* UIKit_Extensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKit_Extensions.h; sourceTree = "<group>"; };
 		E8E9109C22665D6A00B3F0C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E8E910A122665D6A00B3F0C7 /* UIKit+ExtensionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UIKit+ExtensionsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E8E910A622665D6A00B3F0C7 /* UIKit_ExtensionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKit_ExtensionsTests.swift; sourceTree = "<group>"; };
 		E8E910A822665D6A00B3F0C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E8E910B222665E4C00B3F0C7 /* UIStoryboarding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIStoryboarding.swift; sourceTree = "<group>"; };
 		E8E910B822665E7900B3F0C7 /* UIViewReusing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewReusing.swift; sourceTree = "<group>"; };
@@ -74,6 +85,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E8E57E122266BF3C00933736 /* UIStoryboardingTestSubjects */ = {
+			isa = PBXGroup;
+			children = (
+				E8E57E182266C75E00933736 /* UIStoryboarding.storyboard */,
+				E8E57E1A2266C7B100933736 /* UIStoryboardingFirstViewController.swift */,
+				E8E57E1C2266C7C200933736 /* UIStoryboardingSecondViewController.swift */,
+			);
+			path = UIStoryboardingTestSubjects;
+			sourceTree = "<group>";
+		};
 		E8E9108E22665D6A00B3F0C7 = {
 			isa = PBXGroup;
 			children = (
@@ -109,9 +130,10 @@
 		E8E910A522665D6A00B3F0C7 /* UIKit+ExtensionsTests */ = {
 			isa = PBXGroup;
 			children = (
+				E8E57E122266BF3C00933736 /* UIStoryboardingTestSubjects */,
 				E8E910BC2266619400B3F0C7 /* UIViewReusingTestSubjects */,
 				E8E910BA2266614D00B3F0C7 /* UIViewReusingTests.swift */,
-				E8E910A622665D6A00B3F0C7 /* UIKit_ExtensionsTests.swift */,
+				E8E57E102266BEEE00933736 /* UIStoryboardingTests.swift */,
 				E8E910A822665D6A00B3F0C7 /* Info.plist */,
 			);
 			name = "UIKit+ExtensionsTests";
@@ -123,6 +145,8 @@
 			children = (
 				E8E910BD226661D200B3F0C7 /* UIViewReusingTableViewCell.swift */,
 				E8E910BE226661D200B3F0C7 /* UIViewReusingTableViewCell.xib */,
+				E8E57E132266C3B900933736 /* UIViewReusingTableViewCellSubclass.swift */,
+				E8E57E142266C3B900933736 /* UIViewReusingTableViewCellSubclass.xib */,
 				E8E910C12266626200B3F0C7 /* UIViewReusingTableViewHeaderFooterView.swift */,
 				E8E910C32266627400B3F0C7 /* UIViewReusingTableViewHeaderFooterView.xib */,
 				E8E910C52266629A00B3F0C7 /* UIViewReusingCollectionViewCell.swift */,
@@ -233,9 +257,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8E57E202266C88300933736 /* UIViewReusingTableViewCellSubclass.xib in Resources */,
 				E8819B712266705A00A65E0D /* UIViewReusingCollectionReusableView.xib in Resources */,
 				E8819B6D22666D5C00A65E0D /* UIViewReusingTableViewCell.xib in Resources */,
 				E8819B6E22666D6000A65E0D /* UIViewReusingTableViewHeaderFooterView.xib in Resources */,
+				E8E57E1E2266C7C800933736 /* UIStoryboarding.storyboard in Resources */,
 				E8819B6F22666D6400A65E0D /* UIViewReusingCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,10 +283,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				E8E910BB2266614D00B3F0C7 /* UIViewReusingTests.swift in Sources */,
+				E8E57E1F2266C7CF00933736 /* UIStoryboardingFirstViewController.swift in Sources */,
+				E8E57E112266BEEE00933736 /* UIStoryboardingTests.swift in Sources */,
 				E8819B6C22666B2C00A65E0D /* UIViewReusingCollectionReusableView.swift in Sources */,
 				E8E910CD2266671A00B3F0C7 /* UIViewReusingTableViewCell.swift in Sources */,
+				E8E57E1D2266C7C200933736 /* UIStoryboardingSecondViewController.swift in Sources */,
 				E8E910CF2266672200B3F0C7 /* UIViewReusingCollectionViewCell.swift in Sources */,
 				E8E910CE2266671F00B3F0C7 /* UIViewReusingTableViewHeaderFooterView.swift in Sources */,
+				E8E57E172266C3D500933736 /* UIViewReusingTableViewCellSubclass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
