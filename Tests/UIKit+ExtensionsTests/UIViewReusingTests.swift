@@ -6,22 +6,46 @@ import XCTest
 fileprivate let reuseIdentifier = "reuseIdentifier"
 
 class UIViewReusingTests: XCTestCase {
+    let subject = UIViewReusingTableViewCell.self
+
     func test_extension_reuseIdentifier() {
-        XCTAssertEqual(UIViewReusingTableViewCell.reuseIdentifier, "UIViewReusingTableViewCell")
+        XCTAssertEqual(subject.reuseIdentifier, "UIViewReusingTableViewCell")
     }
+
     func test_extension_reuseNibBundle() {
-        XCTAssertEqual(UIViewReusingTableViewCell.reuseNibBundle, Bundle(for: UIViewReusingTests.self))
+        XCTAssertEqual(subject.reuseNibBundle, Bundle(for: UIViewReusingTests.self))
     }
+
     func test_extension_reuseNibName() {
-        XCTAssertEqual(UIViewReusingTableViewCell.reuseNibName, "UIViewReusingTableViewCell")
+        XCTAssertEqual(subject.reuseNibName, "UIViewReusingTableViewCell")
     }
+
     func test_extension_reuseNib() {
-        XCTAssertNotNil(UIViewReusingTableViewCell.reuseNib)
+        XCTAssertNotNil(subject.reuseNib)
+    }
+}
+
+class UIViewReusingSubclassTests: XCTestCase {
+    let subject = UIViewReusingTableViewCellSubclass.self
+
+    func test_extension_reuseIdentifier() {
+        XCTAssertEqual(subject.reuseIdentifier, "UIViewReusingTableViewCellSubclass")
+    }
+
+    func test_extension_reuseNibBundle() {
+        XCTAssertEqual(subject.reuseNibBundle, Bundle(for: UIViewReusingTests.self))
+    }
+
+    func test_extension_reuseNibName() {
+        XCTAssertEqual(subject.reuseNibName, "UIViewReusingTableViewCellSubclass")
+    }
+
+    func test_extension_reuseNib() {
+        XCTAssertNotNil(subject.reuseNib)
     }
 }
 
 class UITableViewClassReusingTests: XCTestCase {
-
     var flyweightView: UITableView? {
         didSet {
             guard let flyweightView = flyweightView else { return }
@@ -76,11 +100,9 @@ class UITableViewClassReusingTests: XCTestCase {
 
         XCTAssertNotNil(UIViewReusingTableViewHeaderFooterView.dequeueingView(for: flyweightView, usingHeaderFooterViewReuseIdentifier: reuseIdentifier))
     }
-
 }
 
 class UITableViewNibReusingTests: XCTestCase {
-
     var flyweightView: UITableView? {
         didSet {
             guard let flyweightView = flyweightView else { return }
@@ -135,11 +157,9 @@ class UITableViewNibReusingTests: XCTestCase {
 
         XCTAssertNotNil(UIViewReusingTableViewHeaderFooterView.dequeueingView(for: flyweightView, usingHeaderFooterViewReuseIdentifier: reuseIdentifier))
     }
-
 }
 
 class UICollectionViewClassReusingTests: XCTestCase {
-
     var flyweightView: UICollectionView? {
         didSet {
             guard let flyweightView = flyweightView else { return }
@@ -194,12 +214,10 @@ class UICollectionViewClassReusingTests: XCTestCase {
 
         XCTAssertNotNil(UIViewReusingCollectionReusableView.dequeueingView(for: flyweightView, usingReuseIdentifier: reuseIdentifier))
     }
-
 }
 
 
 class UICollectionViewNibReusingTests: XCTestCase {
-
     var flyweightView: UICollectionView? {
         didSet {
             guard let flyweightView = flyweightView else { return }
@@ -258,5 +276,4 @@ class UICollectionViewNibReusingTests: XCTestCase {
 
         XCTAssertNotNil(view)
     }
-
 }
