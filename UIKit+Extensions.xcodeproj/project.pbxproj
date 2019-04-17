@@ -135,8 +135,8 @@
 			children = (
 				E8E57E122266BF3C00933736 /* UIStoryboardingTestSubjects */,
 				E8E910BC2266619400B3F0C7 /* UIViewReusingTestSubjects */,
-				E8E910BA2266614D00B3F0C7 /* UIViewReusingTests.swift */,
 				E8E57E102266BEEE00933736 /* UIStoryboardingTests.swift */,
+				E8E910BA2266614D00B3F0C7 /* UIViewReusingTests.swift */,
 				E8E910A822665D6A00B3F0C7 /* Info.plist */,
 			);
 			name = "UIKit+ExtensionsTests";

@@ -3,4 +3,6 @@
 import UIKit
 @testable import UIKit_Extensions
 
-class UIStoryboarding: UIStoryboard, UIKit_Extensions.UIStoryboarding {}
+class UIStoryboarding: UIStoryboard, UIKit_Extensions.UIStoryboarding {
+    static var storyboardIdentifier: String?
+}
