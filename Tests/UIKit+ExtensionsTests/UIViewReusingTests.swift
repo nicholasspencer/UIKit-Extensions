@@ -5,6 +5,21 @@ import XCTest
 
 fileprivate let reuseIdentifier = "reuseIdentifier"
 
+class UIViewReusingTests: XCTestCase {
+    func test_extension_reuseIdentifier() {
+        XCTAssertEqual(UIViewReusingTableViewCell.reuseIdentifier, "UIViewReusingTableViewCell")
+    }
+    func test_extension_reuseNibBundle() {
+        XCTAssertEqual(UIViewReusingTableViewCell.reuseNibBundle, Bundle(for: UIViewReusingTests.self))
+    }
+    func test_extension_reuseNibName() {
+        XCTAssertEqual(UIViewReusingTableViewCell.reuseNibName, "UIViewReusingTableViewCell")
+    }
+    func test_extension_reuseNib() {
+        XCTAssertNotNil(UIViewReusingTableViewCell.reuseNib)
+    }
+}
+
 class UITableViewClassReusingTests: XCTestCase {
 
     var flyweightView: UITableView? {

@@ -1,9 +1,8 @@
 // (ↄ) COPYLEFT ALL WRONGS RESERVED
 
 import XCTest
-@testable import UIKit_Extensions
 
-class UIKit_ExtensionsTests: XCTestCase {
+class UIStoryboardingTests: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.
